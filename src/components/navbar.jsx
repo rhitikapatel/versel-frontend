@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState ,useEffect} from 'react'
-import Login from './Login';
-import Logout from "./Logout";
+import Login from './login';
+import Logout from "./logout";
 import { useAuth } from "../context/AuthProvider";
 
 export default function navbar() {
